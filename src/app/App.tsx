@@ -18,7 +18,7 @@ const App: React.SFC = () => (
         <footer className="footer">
             <p>
                 Created by <a href="https://github.com/sigo/">Mateusz Jagiełło</a>,
-                view <a href="https://github.com/sigo/example-react-redux-cv">source code</a></p>
+                view <a href="https://github.com/sigo/example-react-redux-cv/">source code</a></p>
         </footer>
     </div>
 );
