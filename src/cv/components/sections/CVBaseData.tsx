@@ -38,8 +38,8 @@ class CVSummary extends React.Component<Props, State> {
                     <p>{props.baseData.position}</p>
 
                     <p className="address">
-                        <a className="item" href="tel:+48500500500">{props.baseData.phone}</a>
-                        <a className="item" href="mailto:spam@spam.pl">{props.baseData.email}</a>
+                        <span className="item">{props.baseData.phone}</span>
+                        <span className="item">{props.baseData.email}</span>
                         <span className="item">{props.baseData.address}</span>
                     </p>
                 </div>

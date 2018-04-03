@@ -98,3 +98,18 @@
     margin-top: 0;
     break-inside: avoid-column;
 }
+
+@media print {
+    .cv .section:hover {
+        outline: none;
+    }
+
+    .cv {
+        padding: 0;
+        margin: 30px 50px;
+    }
+
+    .cv .color-squares {
+        display: none;
+    }
+}

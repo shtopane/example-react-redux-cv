@@ -18,6 +18,7 @@ import { CVBaseDataState } from './cv/reducers/base_data';
 declare global {
     interface Window {
         __REDUX_DEVTOOLS_EXTENSION__: any;
+        print: any;
     }
 }
 
