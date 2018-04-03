@@ -75,3 +75,7 @@ textarea.form-control.large {
 .buttons {
     text-align: right;
 }
+
+.footer {
+    margin-bottom: 50px;
+}
