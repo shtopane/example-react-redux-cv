@@ -81,7 +81,7 @@ const renderExperience = (fieldArray: any) => {
                                 <Field
                                     {...fieldProps}
                                     component="input"
-                                    name={`${member}.summary`}
+                                    name={`${member}.end`}
                                     placeholder="End date"
                                 />
                             </div>
@@ -93,7 +93,7 @@ const renderExperience = (fieldArray: any) => {
                         <Field
                             {...fieldProps}
                             component="textarea"
-                            name={`${member}.end`}
+                            name={`${member}.summary`}
                             placeholder="Summary of your responsibilities"
                         />
                     </div>

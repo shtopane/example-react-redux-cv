@@ -5,11 +5,20 @@ export type CVProjectsState = CVProjectsList;
 const initialState: CVProjectsState = ([
     {
         name: 'Example project',
-        summary: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, dolore.'
+        summary: (
+            'Spare ribs shank meatball beef ribs, ground round kobe bacon cow filet mignon t-bone Angus meatloaf' +
+            'porterhouse ribeye. Cheeseburger shoulder short rib bresaola ribeye chuck patties wagyu corned beef' +
+            'shank Angus short loin bacon. Ribeye tri-tip strip steak, beef ribs Angus ground round Burger patties' +
+            'chuck tenderloin meatloaf.'
+        )
     },
     {
-        name: 'Example project2',
-        summary: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, dolore.'
+        name: 'Another project',
+        summary: (
+            'Flank strip steak patties filet mignon meatloaf brisket Cheeseburger tri-tip steak tail bresaola' +
+            'sirloin tenderloin. Angus tenderloin tri-tip steak tail spare ribs meatloaf sirloin cow corned beef' +
+            'bresaola patties brisket flank shank.'
+        )
     }
 ]);
 

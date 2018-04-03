@@ -4,16 +4,16 @@ export type CVEducationState = CVEducationList;
 
 const initialState: CVEducationState = ([
     {
-        specialization: 'Example spec',
+        specialization: 'Another specialization',
         school: 'Example school',
         start: 'January 2018',
-        end: 'September 2019'
+        end: 'Till now'
     },
     {
-        specialization: 'Example spec 2',
+        specialization: 'Example specialization',
         school: 'Example school',
-        start: 'January 2018',
-        end: 'September 2019'
+        start: 'January 2010',
+        end: 'December 2017'
     }
 ]);
 

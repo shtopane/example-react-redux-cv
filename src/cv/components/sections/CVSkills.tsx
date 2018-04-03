@@ -37,12 +37,14 @@ class CVSkills extends React.Component<Props, State> {
                 <div className="section" onClick={this.toggleFormState}>
                     <h2 className="title">Skills</h2>
 
-                    {map(props.skills, (skill, index) => (
-                        <div className="subsection" key={index}>
-                            <p className="subtitle">{skill.group}</p>
-                            <p>{skill.items}</p>
-                        </div>
-                    ))}
+                    <div className="section-columns">
+                        {map(props.skills, (skill, index) => (
+                            <div className="subsection" key={index}>
+                                <p className="subtitle">{skill.group}</p>
+                                <p>{skill.items}</p>
+                            </div>
+                        ))}
+                    </div>
                 </div>
 
                 <Modal

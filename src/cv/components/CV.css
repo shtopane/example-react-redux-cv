@@ -3,21 +3,21 @@
     display: inline-block;
     width: 900px;
     margin: 30px;
-    padding: 80px 120px;
+    padding: 60px 120px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
     position: relative;
     text-align: left;
 }
 
 .cv .header {
-    margin-top: 0;
+    margin-top: 10px;
     margin-bottom: 3px;
     font-size: 28px;
     font-weight: bold;
 }
 
 .cv .title {
-    margin-top: 25px;
+    margin-top: 10px;
     margin-bottom: 10px;
     padding-bottom: 5px;
     font-size: 16px;
@@ -53,7 +53,7 @@
 }
 
 .cv .color-squares {
-    top: 87px;
+    top: 77px;
     left: 45px;
     background-color: #fc4226;
 }
@@ -73,11 +73,28 @@
 }
 
 .cv .section {
+    outline: 1px dashed transparent;
+    transition: outline-color 0.1s, background-color 0.1s;
+    cursor: pointer;
+    margin: 0 -10px;
+    padding: 0 10px;
+    overflow: hidden;
 }
 
 .cv .section:hover {
+    outline-color: #1aa4d8;
+    background-color: #f8f8f8;
 }
 
 .cv .subsection + .subsection {
     margin-top: 20px;
+}
+
+.cv .section-columns {
+    column-count: 2;
+}
+
+.cv .section-columns .subsection {
+    margin-top: 0;
+    break-inside: avoid-column;
 }

@@ -5,8 +5,8 @@ export type CVBaseDataState = CVBaseDataObj;
 const initialState: CVBaseDataState = ({
     fullName: 'Mateusz Jagiełło',
     position: 'Frontend developer',
-    phone: '+48500500501',
-    email: 'spam@spam.pl',
+    phone: '+48500500500',
+    email: 'example@example.com',
     address: 'ul. Example 1, 00-000 Warszawa'
 });
 

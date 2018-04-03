@@ -61,7 +61,7 @@ body {
 
 textarea.form-control {
     resize: vertical;
-    min-height: 75px;
+    min-height: 95px;
 }
 
 textarea.form-control.small {

@@ -4,12 +4,20 @@ export type CVSkillsState = CVSkillList;
 
 const initialState: CVSkillsState = ([
     {
-        group: 'Technologies',
-        items: 'HTML, CSS, jQuery'
+        group: 'Cooking',
+        items: 'Burgers, pizza, sushi'
     },
     {
-        group: 'Others',
-        items: 'Lolz, haha'
+        group: 'Drinks',
+        items: 'Coffee, tea, coffee-tea, beer, whiskey, vodka'
+    },
+    {
+        group: 'Bresaola',
+        items: 'Porterhouse, ribs, ground, brisket, filet'
+    },
+    {
+        group: 'Meatball',
+        items: 'Tri-tip, mignon, chuck, tenderloin'
     }
 ]);
 
