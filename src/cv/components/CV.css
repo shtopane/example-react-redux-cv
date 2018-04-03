@@ -1,0 +1,83 @@
+.cv {
+    background-color: #fff;
+    display: inline-block;
+    width: 900px;
+    margin: 30px;
+    padding: 80px 120px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    text-align: left;
+}
+
+.cv .header {
+    margin-top: 0;
+    margin-bottom: 3px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.cv .title {
+    margin-top: 25px;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #1aa4d8;
+    border-bottom: 1px solid rgba(26, 164, 216, 0.4);
+}
+
+.cv .subtitle {
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.cv .meta {
+    color: #999;
+    font-size: 13px;
+}
+
+.cv .color-squares,
+.cv .color-squares:before,
+.cv .color-squares:after {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+}
+
+.cv .color-squares:before {
+    top: 0;
+    left: 21px;
+    content: '';
+    background-color: #fcc62e;
+}
+
+.cv .color-squares {
+    top: 87px;
+    left: 45px;
+    background-color: #fc4226;
+}
+
+.cv .color-squares:after {
+    top: 0;
+    left: 42px;
+    content: '';
+    background-color: #1aa4d8;
+}
+
+.cv .address .item {
+    display: inline-block;
+    margin-right: 15px;
+    font-size: 13px;
+    color: #999;
+}
+
+.cv .section {
+}
+
+.cv .section:hover {
+}
+
+.cv .subsection + .subsection {
+    margin-top: 20px;
+}
