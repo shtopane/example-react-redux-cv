@@ -16,7 +16,7 @@ const initialState: CVProjectsState = ([
 export const cvProjects = (state = initialState, action: CVProjectsUpdateAction): CVProjectsState => {
     switch (action.type) {
         case CV_PROJECTS_UPDATE:
-            return {...action.projects};
+            return [...action.projects];
         default:
             return state;
     }

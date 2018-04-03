@@ -16,7 +16,7 @@ const initialState: CVSkillsState = ([
 export const cvSkills = (state = initialState, action: CVSkillsUpdateAction): CVSkillsState => {
     switch (action.type) {
         case CV_SKILLS_UPDATE:
-            return {...action.skills};
+            return [...action.skills];
         default:
             return state;
     }

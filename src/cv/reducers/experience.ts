@@ -23,7 +23,7 @@ const initialState: CVExperienceState = ([
 export const cvExperience = (state = initialState, action: CVExperienceUpdateAction): CVExperienceState => {
     switch (action.type) {
         case CV_EXPERIENCE_UPDATE:
-            return {...action.experience};
+            return [...action.experience];
         default:
             return state;
     }

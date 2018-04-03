@@ -20,7 +20,7 @@ const initialState: CVEducationState = ([
 export const cvEducation = (state = initialState, action: CVEducationUpdateAction): CVEducationState => {
     switch (action.type) {
         case CV_EDUCATION_UPDATE:
-            return {...action.education};
+            return [...action.education];
         default:
             return state;
     }
