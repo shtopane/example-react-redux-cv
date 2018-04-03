@@ -134,3 +134,4 @@ typings/
 
 ### Custom
 .idea/
+build/
