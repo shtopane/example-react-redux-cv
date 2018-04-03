@@ -43,6 +43,7 @@ const CVPrivateLifeForm: React.SFC<Props> = props => {
                         name="cvPrivateLife"
                         component="textarea"
                         placeholder="Some your private (after hours) description"
+                        required={true}
                     />
                 </div>
             </div>

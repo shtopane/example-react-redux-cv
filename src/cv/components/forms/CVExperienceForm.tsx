@@ -126,11 +126,11 @@ const CVExperienceForm: React.SFC<Props> = props => {
 
     const handleSubmit = (form: CVExperiences) => {
         props.cvExperienceUpdate(form.experience);
+        props.onSubmit();
     };
 
     return (
         <form onSubmit={props.handleSubmit(handleSubmit)}>
-
             <div className="modal-header">Edit experience information</div>
 
             <div className="modal-body">
